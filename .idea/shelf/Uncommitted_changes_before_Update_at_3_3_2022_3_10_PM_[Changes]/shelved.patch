@@ -1,0 +1,44 @@
+Index: Matplotlib/MPL.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Matplotlib/MPL.py b/Matplotlib/MPL.py
+--- a/Matplotlib/MPL.py	(revision 0c5a34ca710c4d3eb966244c8cf73b60673f2694)
++++ b/Matplotlib/MPL.py	(date 1646186678689)
+@@ -1,0 +1,17 @@
++import numpy as np
++import matplotlib.pyplot as plt
++import math
++plt.grid()
++x = np.arange(0,10,0.1)
++y = np.sin(x/2)
++y2 = np.cos(x/2)
++x2 = np.linspace(0,5,10)
++y3 = x2**2
++plt.plot(x,y,"--r")
++plt.plot(x,y2,"g")
++#   plt.plot(x2,y3)
++plt.xlabel("X")
++plt.ylabel("Y")
++plt.title("Sin-Cos")
++plt.show()
++
+Index: test.py
+===================================================================
+diff --git a/test.py b/test.py
+deleted file mode 100644
+--- a/test.py	(revision 0c5a34ca710c4d3eb966244c8cf73b60673f2694)
++++ /dev/null	(revision 0c5a34ca710c4d3eb966244c8cf73b60673f2694)
+@@ -1,1 +0,0 @@
+-print("Hello")
+\ No newline at end of file
+Index: Test2.py
+===================================================================
+diff --git a/Test2.py b/Test2.py
+deleted file mode 100644
+--- a/Test2.py	(revision 0c5a34ca710c4d3eb966244c8cf73b60673f2694)
++++ /dev/null	(revision 0c5a34ca710c4d3eb966244c8cf73b60673f2694)
+@@ -1,2 +0,0 @@
+-for i in range (0,10):
+-  print(i)
