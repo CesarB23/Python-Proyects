@@ -1,8 +1,5 @@
 #Lists: Is a collection data type that is ordered, mutable and allow us to duplicate elements
 
-from numpy import iterable
-
-
 lst = ["banana","cherry","apple"]
 print(lst)
 
