@@ -55,7 +55,7 @@ for x,y in zip(list1,list2[::-1]):
 
 aList = ['a', 'b', 'c', 'd']
 
-newlist.copy(aList)
+
 
 newlist = list(aList)
 print(newlist)
