@@ -37,3 +37,7 @@ print(A.isdisjoint(C))
 #The frozen set is a type of set that cant be modified or cant be used any update methods
 a = frozenset([1,2,4,5,6])
 print(a)
+
+
+
+
